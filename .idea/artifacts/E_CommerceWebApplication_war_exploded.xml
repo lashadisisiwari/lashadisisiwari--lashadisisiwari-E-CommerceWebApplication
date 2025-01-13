@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="E-CommerceWebApplication:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/E_CommerceWebApplication_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="E-CommerceWebApplication" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lombok-1.18.30" />
+          <element id="library" level="project" name="commons-dbcp2-2.13.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="E-CommerceWebApplication/web/Web" />
+    </root>
+  </artifact>
+</component>
