@@ -65,7 +65,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/WEB-INF/login.jsp">Login</a>
+                    <a class="nav-link" href="login.jsp">Login</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="register.jsp">Register</a>
@@ -116,10 +116,12 @@
 
 <!-- Footer -->
 <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 OnLineFashionHome. All Rights Reserved.</p>
+    <p>&copy; 2025 EasyForYou. All Rights Reserved.</p>
 </footer>
 
 <!-- Bootstrap JS (optional) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<a href="login-servlet">Login Servlet</a>
 </body>
 </html>
