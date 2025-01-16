@@ -12,6 +12,7 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="E-CommerceWebApplication/web/Web" />
+      <element id="javaee-facet-resources" facet="E-CommerceWebApplication/web/Web2" />
     </root>
   </artifact>
 </component>

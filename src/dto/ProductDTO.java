@@ -9,9 +9,11 @@ import lombok.ToString;
 @NoArgsConstructor
 @Data
 @ToString
-public class UserDTO {
 
-    private String username;
-    private String password;
+public class ProductDTO {
 
+    private String code;
+    private String name;
+    private double price;
+    private int quantity;
 }
