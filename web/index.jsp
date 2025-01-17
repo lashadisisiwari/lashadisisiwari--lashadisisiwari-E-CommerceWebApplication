@@ -22,7 +22,7 @@
 
         .navbar-brand {
             font-weight: bold;
-            color: #007bff !important;
+            color: #cd6233 !important;
         }
 
         .hero-section {

@@ -9,7 +9,7 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
             rel="stylesheet">
     <!-- Custom CSS -->
-<!--    <link rel="stylesheet" href="styles.css">-->
+    <link rel="stylesheet" href="styles.css">
 
 
     <style>
@@ -18,7 +18,7 @@
             max-width: 400px;
             width: 100%;
             border-radius: 10px;
-            background-color: #fff;
+            background-color: rgba(204, 159, 140, 0.73);
         }
 
         .login-card h2 {
