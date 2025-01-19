@@ -9,7 +9,7 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
             rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+
 
 
     <style>
@@ -71,7 +71,10 @@
                     <a class="nav-link" href="register.jsp">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="products.jsp">Shop</a>
+                    <a class="nav-link" href="shop.jsp">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="customer.jsp">Cart</a>
                 </li>
             </ul>
         </div>
@@ -83,7 +86,7 @@
     <div class="container py-5">
         <h1 class="display-4">Discover Amazing Deals at EasyForYou</h1>
         <p class="lead">Shop your favorite products at unbeatable prices.</p>
-        <a href="products.jsp" class="btn btn-primary btn-lg mt-3">Start Shopping</a>
+        <a href="shop.jsp" class="btn btn-primary btn-lg mt-3">Start Shopping</a>
     </div>
 </header>
 
@@ -122,6 +125,6 @@
 <!-- Bootstrap JS (optional) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-<a href="login-servlet">Login Servlet</a>
+
 </body>
 </html>

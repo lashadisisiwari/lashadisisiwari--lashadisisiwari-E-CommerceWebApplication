@@ -9,7 +9,8 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
             rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+
+
 
 
     <style>
@@ -32,11 +33,14 @@
 <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="card p-4 shadow-lg login-card">
         <h2 class="text-center mb-4">Login to ShopEase</h2>
-        <form action="processLogin.jsp" method="post">
-            <!-- Email Input -->
+<%--        alert--%>
+        <div id="alert-container" class="mt-3"></div>
+
+        <form>
+            <!-- UserName Input -->
             <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                <label for="username" class="form-label">UserName</label>
+                <input type="username" class="form-control" id="username" name="username" placeholder="Enter your UserName" required>
             </div>
             <!-- Password Input -->
             <div class="mb-3">
@@ -45,7 +49,7 @@
             </div>
             <!-- Submit Button -->
             <div class="d-grid">
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" id="login" class="btn btn-primary">Login</button>
             </div>
             <!-- Additional Links -->
             <div class="text-center mt-3">
@@ -56,6 +60,10 @@
 </div>
 
 <!-- Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/loginJs.js"></script>
 </body>
 </html>
