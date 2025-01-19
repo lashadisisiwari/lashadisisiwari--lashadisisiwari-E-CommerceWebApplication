@@ -4,7 +4,7 @@ $('#login').click((e) =>{
     const  userName=$('#username').val()
     const  passWord=$('#password').val()
 
-    console.log("userName ", email)
+    console.log("userName ", userName)
     console.log("passWord ",passWord)
     if (!userName || !passWord) {
         const alertHTML = `
@@ -19,14 +19,16 @@ $('#login').click((e) =>{
 
 
     $.ajax({
-        url:  "http://localhost:8081/E_CommerceWebApplication_war_exploded/",
+        url:  "http://localhost:8081/E_CommerceWebApplication_war_exploded/user",
         type:"POST",
         data:{
             "UserName":userName,
             "Password":passWord
         },
         success: function (res){
+            console.log("responce: " , res);
             if(res.success){
+
                 alert("Login Success...!")
                 window.location.href='../shop.jsp'
             }else {
