@@ -32,7 +32,7 @@ form.addEventListener('submit', function (e) {
                 if (role === 'admin' || role === 'Admin') {
                     window.location.href = 'dashboardPage.jsp';
                 } else if (role === 'user' || role === 'User') {
-                    window.location.href = 'index.html';
+                    window.location.href = 'index.jsp';
                 } else {
                     alert('Unknown role.');
                 }

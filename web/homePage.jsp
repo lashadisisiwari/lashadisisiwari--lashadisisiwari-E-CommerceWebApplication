@@ -149,39 +149,8 @@
   </div>
 </footer>
 
-
+<script src="js/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  // Array of products
-  const products = [
-    { name: "Microwave oven", price: 2500.00, image: "fashion.png" },
-    { name: "Cooker", price: 350.00, image: "fashion.png" },
-    { name: "Coffee makers", price: 450.00, image: "fashion.png" },
-    { name: "Rice cooker", price: 55.00, image: "fashion.png" },
-    { name: "Dishwasher", price: 300.00, image: "fashion.png" },
-    { name: "Blender", price: 240.00, image: "fashion.png" },
-    { name: "Kitchen stoves", price: 550.00, image: "fashion.png" },
-    { name: "Kettles", price: 550.00, image: "fashion.png" }
-  ];
-
-  const featuredProductsContainer = document.getElementById("featured-products");
-
-  // Generate product cards dynamically
-  products.forEach(product => {
-    const productCard = `
-      <div class="col-md-3 mb-3">
-        <div class="card product-card">
-          <img src="${product.image}" class="card-img-top" alt="${product.name}">
-          <div class="card-body">
-            <h5 class="card-title">${product.name}</h5>
-            <p class="card-text">$${product.price.toFixed(2)}</p>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
-          </div>
-        </div>
-      </div>
-    `;
-    featuredProductsContainer.innerHTML += productCard;
-  });
-</script>
+<script src="js/index.js"></script>
 </body>
 </html>
