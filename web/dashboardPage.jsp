@@ -47,7 +47,7 @@
 <body>
 <!-- Sidebar -->
 <div class="sidebar">
-    <h3 class="text-center"><a href="dashboardPage.html">Admin Dashboard</a></h3>
+    <h3 class="text-center"><a href="dashboardPage.jsp">Admin Dashboard</a></h3>
     <a href="manageProduct.jsp">Manage Products</a>
     <a href="manageCategory.jsp">Manage Categories</a>
     <a href="manageOrder.jsp">Manage Orders</a>

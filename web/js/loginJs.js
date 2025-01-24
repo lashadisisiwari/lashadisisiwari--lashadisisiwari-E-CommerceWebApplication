@@ -30,7 +30,7 @@ form.addEventListener('submit', function (e) {
 
                 const role = data.role;
                 if (role === 'admin' || role === 'Admin') {
-                    window.location.href = 'dashboardPage.html';
+                    window.location.href = 'dashboardPage.jsp';
                 } else if (role === 'user' || role === 'User') {
                     window.location.href = 'index.html';
                 } else {

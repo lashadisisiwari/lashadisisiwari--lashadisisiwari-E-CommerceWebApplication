@@ -28,7 +28,7 @@ CREATE TABLE users (
     status ENUM('active', 'inactive') DEFAULT 'active'
 );
 
-insert into users values("1","sample","sample@gmail.com","1234","0767554903","Admin","active");
+insert into users values("1","lashadi","lashadi@gmail.com","1234","0767554903","Admin","active");
 
 
 CREATE TABLE orders (

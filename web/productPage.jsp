@@ -103,7 +103,6 @@
     </div>
 </nav>
 
-
 <div class="container">
     <h1 class="text-center">Our Products</h1>
     <div class="row mb-4">
@@ -137,10 +136,10 @@
             <div class="col-md-4">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="homePage.jsp">Home</a></li>
+                    <li><a href="homePage.html">Home</a></li>
                     <li><a href="productPage.html">Products</a></li>
                     <li><a href="cart.jsp">Cart</a></li>
-                    <li><a href="profilePage.jsp">Profile</a></li>
+                    <li><a href="profilePage.html">Profile</a></li>
                 </ul>
             </div>
             <div class="col-md-4">
@@ -252,7 +251,7 @@
             if (userId!=null){
                 addToCart(userId, productId, quantity, productPrice);
             }else {
-             alert("Create And Login Your Account")
+                alert("Create And Login Your Account")
             }
         }
     });
