@@ -1,0 +1,24 @@
+.footer {
+    background-color: #222020;
+    color: white;
+}
+
+.custom-icon {
+    font-size: 2rem;
+}
+
+.custom-icon.btn-facebook {
+    color: #3b5998;
+}
+
+.custom-icon.btn-twitter {
+    color: #1da1f2;
+}
+
+.custom-icon.btn-instagram {
+    color: #e4405f;
+}
+
+.custom-icon:hover {
+    opacity: 0.8;
+}
