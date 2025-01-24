@@ -1,4 +1,4 @@
-package dto;
+package dto.get;
 
 
 import lombok.AllArgsConstructor;
@@ -9,15 +9,15 @@ import lombok.ToString;
 import java.sql.Date;
 
 
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @ToString
-public class OrderDTO {
-private int id;
-private int user_id;
-private Date order_date;
-private Double amount;
-private String status;
+
+public class OrderDTOGet {
+    private int id;
+    private String userName;
+    private Date order_date;
+    private Double amount;
+    private String status;
 }

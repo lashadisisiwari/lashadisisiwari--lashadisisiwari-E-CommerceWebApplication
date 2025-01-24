@@ -5,11 +5,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Data
 @ToString
-public class CategoryDTO {
-    private String categoryId;
-    private String categoryName;
+public class OrderDetailsDTO {
+    private int order_id;
+    private int product_id;
+    private int quantity;
+    private double price;
 }

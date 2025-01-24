@@ -11,9 +11,24 @@ import lombok.ToString;
 @ToString
 
 public class ProductDTO {
-
-    private String code;
-    private String description;
-    private int qty;
+    private int id;
+    private String name;
+    private int category;
     private double price;
+    private String description;
+
+    public ProductDTO(String name, String category, double price, String description) {
+        this.name = name;
+        this.category = Integer.parseInt(category);
+        this.price = price;
+        this.description = description;
+    }
+
+    public ProductDTO(int id, String name, String category, double price, String description) {
+        this.id = id;
+        this.name = name;
+        this.category = Integer.parseInt(category);
+        this.price = price;
+        this.description = description;
+    }
 }
