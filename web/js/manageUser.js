@@ -1,0 +1,1 @@
+const  baseUrl="http://localhost:8080/E_CommerceWebApplication_war_exploded";
